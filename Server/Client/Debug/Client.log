@@ -1,0 +1,25 @@
+﻿Сборка начата 30.11.2018 9:13:54.
+     1>Проект "E:\учеба\3курс\ос\ClientServer\Server\Client\Client.vcxproj" в узле 3 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Client.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Client.cpp
+         Client.cpp
+     1>e:\учеба\3курс\ос\clientserver\server\client\client.cpp(46): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): см. объявление "inet_addr"
+     1>e:\учеба\3курс\ос\clientserver\server\client\client.cpp(47): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): см. объявление "inet_addr"
+     1>e:\учеба\3курс\ос\clientserver\server\client\client.cpp(50): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238): см. объявление "gethostbyname"
+     1>e:\учеба\3курс\ос\clientserver\server\client\client.cpp(71): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(911): см. объявление "_sleep"
+     1>e:\учеба\3курс\ос\clientserver\server\client\client.cpp(76): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>e:\учеба\3курс\ос\clientserver\server\client\client.cpp(92): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(911): см. объявление "_sleep"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\учеба\3курс\ос\ClientServer\Server\Debug\Client.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\учеба\3курс\ос\ClientServer\Server\Debug\Client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\учеба\3курс\ос\ClientServer\Server\Debug\Client.lib" /MACHINE:X86 Debug\Client.obj
+         Debug\stdafx.obj
+         Client.vcxproj -> E:\учеба\3курс\ос\ClientServer\Server\Debug\Client.exe
+     1>Сборка проекта "E:\учеба\3курс\ос\ClientServer\Server\Client\Client.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:07.90

@@ -1,0 +1,1 @@
+FOR /L %%i in (1,1,10) DO start cmd.exe /K Client.exe 127.0.0.1 5223
